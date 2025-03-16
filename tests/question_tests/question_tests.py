@@ -10,10 +10,10 @@ class Test_Config(unittest.TestCase):
         self.assertEqual(True, test_config())
 
         def test_get_person_category(self):
-            self.assertEqual("child", test_get_person_category(5))
-            self.assertEqual("teenager", test_get_person_category(15))
-            self.assertEqual("adult",test_get_person_category(38))
-            self.assertEqual(infant, test_get_person_category(.5))
+            self.assertEqual("child", test_get_person_category(2))
+            self.assertEqual("teenager", test_get_person_category(14))
+            self.assertEqual("adult",test_get_person_category(20))
+            self.assertEqual("infant", test_get_person_category(1))
 
 
 

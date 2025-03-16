@@ -1,6 +1,6 @@
 #add import
 
-from src.question_a.question_a import get_person_category(age)
+from src.question_a.question_a import get_person_category
 
 def main():              
     age = int(input("Enter a person's age:  "))
