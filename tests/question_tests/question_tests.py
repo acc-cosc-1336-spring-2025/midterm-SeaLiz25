@@ -9,11 +9,9 @@ class Test_Config(unittest.TestCase):
     def test_question_a_config(self):
         self.assertEqual(True, test_config())
 
-        def test_get_person_category(self):
-            self.assertEqual("child", test_get_person_category(2))
-            self.assertEqual("teenager", test_get_person_category(14))
-            self.assertEqual("adult",test_get_person_category(20))
-            self.assertEqual("infant", test_get_person_category(1))
+        def test_get_miles_per_hour(self):
+            self.assertEqual(19.883872, test_get_miles_per_hour(32,60))
+          
 
 
 
